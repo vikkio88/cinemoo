@@ -1,0 +1,13 @@
+<img src="img/logo/actor.png" class="logopiccolo" />
+<ul class="suggestions">
+	<li>{Ruolo} nel film {Film}</li>
+	<li>film di {Attore}</li>
+	<li>film con {Attore1} e {Attore2}</li>
+</ul>
+<script>
+   $('ul.suggestions li').click(
+		function(){
+			$("#searchbar").val($(this).html());$("#searchbar").focus().setSelection($("#searchbar").val().indexOf("{"), ($("#searchbar").val().indexOf("}")+1));
+		}
+	);
+</script>

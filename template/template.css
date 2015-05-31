@@ -1,0 +1,150 @@
+body{
+	/*background-color: #ff290d;*/
+	background: #ff290d url(../img/back.jpg);
+}
+
+#resp{
+	/*width:50%;*/
+	background-color: black;
+	color:#ff7500;
+	margin:auto;
+	max-height: 400px;
+	overflow:auto;
+	margin-top:20px;
+	
+}
+#resp li{
+color: white;
+}
+#resp table{
+color: white;
+}
+
+ul.response{
+	color:white;
+	text-align: left;
+	list-style: none;
+	min-width:5px;
+	margin-right:10px;
+}
+ul.response li{
+	background-color:#a81b08;
+	padding: 3px 3px 3px 3px;
+	margin: 4px 4px 4px 4px;
+	border: solid 1px black;
+	border-radius:5px;
+}
+ul.response li:hover{
+	background-color:#a82211;
+	border-bottom:1px black dotted;
+	border-right:1px black dotted;
+	border-radius:0px;
+}
+
+#resp ul a{
+	color: white;
+	font-weight:bold;
+	text-decoration: none;
+}
+#resp ul a:hover{
+	font-style:italic;
+}
+.filler{
+	cursor:pointer;
+}
+.filler:hover{
+	font-style:italic;
+}
+
+span.filler{
+	font-size:0.9em;
+	font-weight:bold;
+	border:solid 1px white;
+	border-radius:4px;
+	background: black;
+	opacity: 0.7;
+	max-width:300px;
+}
+
+span.filler:hover{
+	background-color:white;
+	color:black;
+}
+
+#centermain {
+	color: white;
+	/*background-color:#ff290d;/*#0d82ff;*/
+	background: #ff290d url(../img/1.png) no-repeat;
+	margin:auto;
+	width:80%;
+	min-width: 796px;
+	min-height:550px;
+	max-height:800px;
+	border:solid 2px black;
+	border-radius:15px;
+	text-align:center;
+	margin-top:60px;
+}
+
+#actor{
+	float:left;
+	width:25%;
+}
+#movie{
+	float:right;
+	width:25%;
+}
+#cloud{
+	width:45%;
+	border:solid 2px white;
+	border-radius:10px;
+	margin:auto;
+	padding: 5px 5px 5px 5px;
+	margin-top:20px;
+}
+
+img.button{
+	/*border: solid 3px black;
+	border-right: solid 5x black;
+	border-bottom: solid 5px black;
+	background-color:white;
+	border-radius:15px;
+	margin-left:20px;
+	margin-right:20px;*/
+	height:200px;
+	width:200px;
+	cursor:pointer;
+}
+
+img.button:hover{
+	height:203px;
+	width:203px;
+	/*background-color:#FFEB0D;*/
+}
+
+
+ul.suggestions{
+	/*width:25%;*/
+	list-style:none;
+	margin:auto;
+	margin-top:15px;
+	font-weight: bold;
+}
+ul.suggestions li{
+	margin: 5px 5px 5px 5px;
+	border-radius:15px;
+	/*background-color:#ff290d;*/
+	background-color:#a81b08;
+	cursor:pointer;
+}
+
+ul.suggestions li:hover{
+	border-radius:5px;
+	background-color: #ff1e00;
+	text-shadow: black 1px -2px 2px;
+}
+
+img.logopiccolo{
+	width:70px;
+	height:70px;
+}

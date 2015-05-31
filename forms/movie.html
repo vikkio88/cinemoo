@@ -1,0 +1,13 @@
+<img src="img/logo/movie.png" class="logopiccolo" />
+<ul class="suggestions">
+	<li>attori nel film {Film}</li>
+	<li>protagonista nel film {Film}</li>
+	<li>trama del film {Film}</li>
+</ul>
+<script>
+   $('ul.suggestions li').click(
+		function(){
+			$("#searchbar").val($(this).html());$("#searchbar").focus().setSelection($("#searchbar").val().indexOf("{"), ($("#searchbar").val().indexOf("}")+1));
+		}
+	);
+</script>
